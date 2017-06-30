@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Minimal boilerplate for react",
   "main": "index.js",
+  "engines": {
+    "node": "6.10.2",
+    "npm": "5.0.4"
+  },
   "scripts": {
     "dev": "webpack-dev-server --progress --inline --colors --hot --config ./webpack.config.js",
     "postinstall": "NODE_ENV='production' webpack -p",
