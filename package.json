@@ -18,6 +18,10 @@
       "stage-2"
     ]
   },
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  },
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
