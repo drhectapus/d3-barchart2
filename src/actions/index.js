@@ -5,7 +5,7 @@ export const FETCH_DATA = 'FETCH_DATA';
 const ROOT_URL = 'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json';
 
 export function fetchData() {
-  const request = axios.get(ROOT_URL);;
+  const request = axios.get(ROOT_URL);
 
   return (dispatch) => {
     request.then(({ data }) => {

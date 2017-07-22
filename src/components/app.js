@@ -7,15 +7,15 @@ import { fetchData } from '../actions/index';
 class App extends Component {
   constructor(props){
     super(props);
-    this.createBarChart = this.createBarChart.bind(this)
+    this.createBarChart = this.createBarChart.bind(this);
     this.props.fetchData();
     if (this.props.data) {
       this.createBarChart();
     }
    }
-   
+
    componentDidUpdate() {
-      this.createBarChart()
+      this.createBarChart();
    }
 
    createBarChart() {
