@@ -1,0 +1,8 @@
+{
+  "GCLOUD_PROJECT": "d3-barchart",
+  "CLOUD_BUCKET": "d3-bar-bucket",
+  "DATA_BACKEND": "datastore",
+  "OAUTH2_CLIENT_ID": "683668894362-qtkv3i6pbtue4s72e2nv0l6588krg6v8.apps.googleusercontent.com",
+  "OAUTH2_CLIENT_SECRET": "1y1Q7YXLVd5IHPSIM6SlxPe6",
+  "OAUTH2_CALLBACK": "http://localhost:8080/auth/google/callback"
+}
